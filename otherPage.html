@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.Link para Certidoes-Comprovante-Situacoes.</title>
+    
+
+</head>
+<body>
+
+    <style>
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #8f8f8f;
+        }
+
+
+        header{
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(15, 15, 15);
+            box-shadow: 0 0 1rem black;
+        }
+
+        ul{
+            display: flex;
+            margin: 23px;
+        }
+        li{
+            color: yellowgreen;
+            list-style-type: none;
+            cursor: pointer;
+            padding-left: 2rem;
+        }
+
+        .CalculadoraD1{
+            display: flex;
+            margin: auto;
+
+
+
+            
+        }
+
+        .CalculadoraD2{
+            margin:  auto;
+            
+            background-color: #676869;
+            box-shadow: 0 0 1rem #5f6061;
+            padding: 50px 50px 100px 50px;
+            margin-top: 50px;
+            width: 750px;
+
+        }
+
+        .elementos{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0.2em 0.5em;
+            
+        }
+
+        .tituloC{
+            color: rgb(155, 189, 189);
+            transition: all 1s;
+            cursor: pointer;
+        }
+
+        .tituloC:hover{
+            color: aqua;
+            -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+        }
+
+        .textoResultado{
+            color: rgb(217, 235, 235);
+        }
+
+        .logo{
+            height: 42px;
+            width: 42px;
+            border-radius: 40px;
+            background-color: rgba(0, 89, 255, 0.781);
+            margin: 10px;
+            transition: all 5s;
+        }
+
+
+        #l1:hover{
+            background-color: rgb(17, 17, 14);
+            -webkit-transform: rotateZ(360deg);
+        }
+
+    </style>
+    <header>
+        
+        <ul>
+            <li onclick="eisso()">Menu</li>
+            <li onclick="eisso()">Projetos</li>
+            <li onclick="eisso()">Sobre</li>
+            <li onclick="eisso()">Contatos</li>
+        </ul>
+
+
+    </header>
+<div class="CalculadoraD1">
+        <div class="CalculadoraD2">
+            
+            <form>
+                <a id="atalho">CND Trabalhista: <a href="https://cndt-certidao.tst.jus.br/inicio.faces;jsessionid=iRUF6eURQL03dHu_suMd90cLiO2evemoDH5WsXMf.cndt-certidao-41-brlsk" target="_blank">Acessar</a></a>
+                <br><br>
+                <a id="atalho">CND Federal: <a href="https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir" target="_blank">Acessar</a></a>
+                <br><br>
+                <a id="atalho">CND Estadual: <a href="https://internet-consultapublica.apps.sefaz.ce.gov.br/certidaonegativa/preparar-consultarr" target="_blank">Acessar</a></a>
+                <br><br>
+                <a id="atalho">Comprovante de regularidade do FGTS: <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" target="_blank">Acessar</a></a>
+                <br><br>
+                <a id="atalho">Comprovante de inscrição no CNPJ  : <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">Acessar</a></a>
+                <br><br>
+            </form>
+        </div>
+
+</div>
+<script>
+    var a = 0;
+    function eisso(){
+        a = a+1;
+        alert("Deixemos isso de lado!")
+        if (a == 5){
+            alert("CHEGA")
+        }
+        if(a == 10){
+            alerta("Okay , pare com isso...")
+        }
+        if(a == 15){
+            alerta("Chega , adeus");
+            window.close();
+        }
+    }
+</script>
+    
+</body>
+</html>
